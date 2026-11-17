@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f3ed">
+<meta name="description" content="Soumili Banerjee — resume and portfolio.">
+<title>Soumili Banerjee | Resume & Portfolio</title>
+<style>
+:root{--bg:#f7f3ed;--paper:#fffdf9;--ink:#282820;--muted:#6e6b61;--accent:#9d5149;--accent2:#d9a49a;--line:#e8ded4;--soft:#f1e7df;--shadow:0 18px 55px rgba(70,48,35,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.65}.gingham-strip{height:9px;background-color:#ead5cf;background-image:linear-gradient(45deg,rgba(255,255,255,.55) 25%,transparent 25%,transparent 75%,rgba(255,255,255,.55) 75%),linear-gradient(45deg,rgba(255,255,255,.55) 25%,transparent 25%,transparent 75%,rgba(255,255,255,.55) 75%);background-position:0 0,7px 7px;background-size:14px 14px}
+.wrap{width:min(1080px,calc(100% - 40px));margin:auto}header.site-header{position:sticky;top:0;z-index:10;background:rgba(247,243,237,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.navbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.1rem;font-weight:bold;color:var(--ink);text-decoration:none;letter-spacing:.02em}.nav-links{display:flex;align-items:center;gap:23px}.nav-link{font:600 .88rem Arial,sans-serif;color:var(--muted);text-decoration:none}.nav-link:hover,.nav-link.active{color:var(--accent)}.menu-toggle{display:none;border:1px solid var(--line);background:var(--paper);border-radius:9px;padding:9px 12px;color:var(--ink)}
+main{padding-bottom:70px}section{padding:76px 0 0}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center;padding-top:92px;min-height:560px}.eyebrow,.section-label{font:700 .72rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.18em;color:var(--accent)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3.3rem,7vw,6rem);line-height:.99;letter-spacing:-.055em;margin:17px 0 22px;font-weight:500}.hero-intro{font-size:1.2rem;max-width:590px;color:#565348}.hero-goal{font:700 1rem Arial,sans-serif;color:var(--accent);margin:22px 0 27px}.hero-art{position:relative;min-height:360px;display:grid;place-items:center}.photo-frame{width:min(330px,80%);aspect-ratio:4/5;background:repeating-linear-gradient(0deg,rgba(255,255,255,.25) 0 14px,transparent 14px 28px),repeating-linear-gradient(90deg,rgba(255,255,255,.25) 0 14px,transparent 14px 28px),#d9b7ad;border:12px solid var(--paper);box-shadow:var(--shadow);transform:rotate(2deg);display:grid;place-items:center;overflow:hidden}.photo-frame img{width:100%;height:100%;object-fit:cover;display:block}.photo-fallback{font-size:5rem;color:#fff8f2;letter-spacing:-.08em}.photo-note{position:absolute;bottom:15px;right:3%;background:var(--paper);padding:12px 17px;box-shadow:var(--shadow);font-style:italic;transform:rotate(-3deg);font-size:.95rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:white;border:1px solid var(--accent);padding:12px 18px;border-radius:5px;text-decoration:none;font:700 .88rem Arial,sans-serif;transition:transform .2s,background .2s}.btn:hover{background:#813f39;transform:translateY(-2px)}.btn.secondary{background:transparent;color:var(--accent)}.btn.secondary:hover{background:var(--soft)}.btn-sm{padding:9px 13px}.btn-group{display:flex;flex-wrap:wrap;gap:11px;margin-top:20px}
+.section-heading{display:flex;align-items:baseline;gap:15px;margin-bottom:24px}.section-heading h2{font-size:clamp(2rem,4vw,2.8rem);font-weight:500;letter-spacing:-.04em;margin:0}.section-heading:after{content:"";height:1px;background:var(--line);flex:1}.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:25px 28px;box-shadow:0 8px 30px rgba(70,48,35,.035)}.card p:last-child{margin-bottom:0}.card p,.card li{color:#555247}.card h3{font-size:1.2rem;margin-bottom:5px;font-weight:600}.meta{font:700 .77rem Arial,sans-serif;color:var(--accent)!important;letter-spacing:.04em;margin-bottom:14px}.card ul{padding-left:21px;margin:13px 0 0}.card li{padding-left:4px;margin:8px 0}.grid-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.education-card{min-height:150px}.education-card p{margin:5px 0}.skills-list{display:grid;grid-template-columns:repeat(2,1fr);gap:0 28px;padding:0!important;list-style:none}.skills-list li{border-bottom:1px solid var(--line);padding:12px 0!important;margin:0!important}.skills-list strong{color:var(--ink)}.resume-actions{display:flex;justify-content:flex-end;margin-bottom:15px}#resume{background:white;border:1px solid #dedbd5;box-shadow:var(--shadow);padding:clamp(24px,5vw,55px);max-width:850px;margin:auto;color:#222;font-family:Arial,sans-serif;line-height:1.45}.resume-header{border-bottom:2px solid #9d5149;padding-bottom:16px;margin-bottom:17px}.resume-header h2{font:700 2rem Arial,sans-serif;margin:0 0 5px}.resume-header p{font-size:.88rem;margin:0;color:#555}.resume-profile{font-size:.94rem;margin-bottom:22px}.resume-block{margin-top:20px}.resume-block h3{font:bold 1rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9d5149;border-bottom:1px solid #ddd;padding-bottom:6px}.resume-row{display:flex;justify-content:space-between;gap:15px;margin:10px 0;font-size:.88rem}.resume-row span{white-space:nowrap;color:#555}.resume-block ul{padding-left:19px;font-size:.86rem}.resume-block li{margin:6px 0}.resume-block p{font-size:.88rem}.contact-card a:not(.btn){color:var(--accent);overflow-wrap:anywhere}.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.contact-card{min-height:190px}.contact-detail{font:600 .9rem Arial,sans-serif;margin:12px 0}.footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font: .82rem Arial,sans-serif}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.navbar{min-height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 22px 22px;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:17px}.nav-links.open{display:flex}.hero{grid-template-columns:1fr;gap:12px;padding-top:65px;min-height:0}.hero-art{min-height:310px}.photo-frame{width:235px}.photo-note{right:8%}.grid-list,.contact-grid,.skills-list{grid-template-columns:1fr}section{padding-top:58px}.resume-row{flex-direction:column;gap:2px}.resume-row span{white-space:normal}.card{padding:21px}.section-heading{gap:10px}}
+@media print{body{background:white;color:#111}.gingham-strip,.site-header,.hero,.section:not(#resume-wrapper),#resume-wrapper>.resume-actions,.footer{display:none!important}#resume-wrapper{padding:0!important}#resume{box-shadow:none;border:0;max-width:none;padding:0}.resume-block{break-inside:avoid}@page{size:A4;margin:16mm}}
+</style>
+</head>
+<body>
+<div class="gingham-strip" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap"><nav class="navbar" aria-label="Primary navigation">
+<a href="#hero" class="brand">Soumili Banerjee</a>
+<button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+<div class="nav-links" id="navLinks">
+<a href="#about" class="nav-link">About</a><a href="#experience" class="nav-link">Experience</a><a href="#education" class="nav-link">Education</a><a href="#skills" class="nav-link">Skills</a><a href="#resume" class="nav-link">Resume</a><a href="mailto:soumilibanerjee77@gmail.com?subject=Internship%20opportunity" class="btn btn-sm">Email me</a>
+</div></nav></div></header>
+<main class="wrap">
+<section class="hero" id="hero">
+<div class="hero-text"><div class="eyebrow">Resume · Portfolio · 2026</div><h1>Soumili<br>Banerjee</h1>
+<p class="hero-intro">I’m a first-year IIM Bangalore student who cries a lot and still gets everything done. It’s an art.</p>
+<p class="hero-goal">I’m looking for an internship or a job.</p>
+<a href="mailto:soumilibanerjee77@gmail.com?subject=Internship%20opportunity" class="btn">Email me about an internship ↗</a>
+</div>
+<div class="hero-art"><div class="photo-frame"><img src="soumili.png" alt="Portrait of Soumili Banerjee" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span class="photo-fallback" style="display:none">SB</span></div><div class="photo-note">A little bit of ambition ✿</div></div>
+</section>
+<section id="about"><div class="section-heading"><span class="section-label">01</span><h2>About</h2></div><div class="card"><p>I’m doing two degrees at once: a BBA in Digital Business and Entrepreneurship at IIM Bangalore, and Economics (Honours) at IGNOU.</p><p>I like connecting students with real opportunities, industry professionals and well-organised experiences. I want to do more of that.</p></div></section>
+<section id="experience"><div class="section-heading"><span class="section-label">02</span><h2>Experience</h2></div><article class="card"><h3>Interview Coordinator, OUY Consultancy Services</h3><p class="meta">April to July 2026</p><ul>
+<li>Resolved last-minute scheduling disruptions by messaging the interviewer to find the next open slot, confirming with HR and the internal team first, and then updating the candidate so all remaining interviews stayed on track.</li>
+<li>Coordinated interview schedules across candidates, interviewers, and the internal team to ensure sessions started and ended on time.</li>
+<li>Handled candidate and client outreach via phone calls and messages, sharing interview details and following up systematically on replies.</li>
+<li>Updated existing MS Excel trackers to log interview slots and candidate records, and prepared supporting coordination documents.</li></ul></article></section>
+<section id="education"><div class="section-heading"><span class="section-label">03</span><h2>Education</h2></div><div class="grid-list">
+<article class="card education-card"><h3>IIM Bangalore</h3><p>BBA in Digital Business and Entrepreneurship</p><p class="meta">2026 to 2029</p></article>
+<article class="card education-card"><h3>IGNOU</h3><p>B.A. Economics (Honours)</p><p class="meta">2026 to 2029</p></article>
+<article class="card education-card"><h3>Deshbandhu Vidyalaya Girls’, Chittaranjan (CBSE)</h3><p>Class XII — 77%</p><p class="meta">2024 to 2025</p></article>
+<article class="card education-card"><h3>DAV Public School (CBSE)</h3><p>Class X — 81%</p><p class="meta">2022 to 2023</p></article>
+</div></section>
+<section id="skills"><div class="section-heading"><span class="section-label">04</span><h2>Skills</h2></div><div class="card"><ul class="skills-list">
+<li><strong>Scheduling and follow-up:</strong> I did both for candidates, interviewers and HR at OUY.</li>
+<li><strong>Communication:</strong> I handled calls and messages with candidates and clients at OUY.</li>
+<li><strong>Excel:</strong> I used it at OUY to track interview slots and candidate records.</li>
+<li><strong>Canva:</strong> I made invitations for school events.</li>
+<li><strong>Teamwork:</strong> I worked with others while hosting at annual functions.</li>
+<li><strong>Languages:</strong> English, Hindi and Bengali.</li></ul></div></section>
+<section id="interests"><div class="section-heading"><span class="section-label">05</span><h2>Interests</h2></div><div class="card"><p>Digital business, entrepreneurship, student opportunities, industry networks and corporate engagement.</p></div></section>
+<section id="contact"><div class="section-heading"><span class="section-label">06</span><h2>Say hello</h2></div><div class="contact-grid">
+<div class="card contact-card"><h3>Let’s talk opportunities.</h3><p>I’m looking for an internship or a job. Email me and let’s start a conversation.</p><p class="contact-detail"><a href="mailto:soumilibanerjee77@gmail.com">soumilibanerjee77@gmail.com</a></p><div class="btn-group"><a href="mailto:soumilibanerjee77@gmail.com?subject=Internship%20opportunity" class="btn">Internship enquiry</a><a href="mailto:soumilibanerjee77@gmail.com?subject=Job%20opportunity" class="btn secondary">Job enquiry</a></div></div>
+<div class="card contact-card"><h3>Based in</h3><p class="contact-detail">Chittaranjan, West Bengal</p><p>Open to connecting with people, teams and organisations working on meaningful opportunities.</p><a href="mailto:soumilibanerjee77@gmail.com?subject=Let%E2%80%99s%20collaborate" class="btn secondary">Let’s collaborate ↗</a></div>
+</div></section>
+<section id="resume"><div class="section-heading"><span class="section-label">07</span><h2>Resume</h2></div><div class="resume-actions"><button class="btn" id="printResume" type="button">Print / Save resume as PDF ↓</button></div>
+<article id="resumeDocument"><header class="resume-header"><h2>Soumili Banerjee</h2><p>Chittaranjan, West Bengal · <a href="mailto:soumilibanerjee77@gmail.com">soumilibanerjee77@gmail.com</a></p></header>
+<p class="resume-profile">First-year IIM Bangalore BBA student looking for an internship or job, with hands-on experience coordinating interviews.</p>
+<div class="resume-block"><h3>Experience</h3><div class="resume-row"><strong>Interview Coordinator, OUY Consultancy Services</strong><span>April to July 2026</span></div><ul>
+<li>Rebooked cancelled interview slots by checking interviewer availability, confirming with HR and the team first, and updating candidates so remaining schedules stayed intact.</li>
+<li>Coordinated interview schedules between candidates, interviewers, and the internal team to maintain punctuality.</li>
+<li>Managed calls and messages with candidates and clients to share details and follow up on responses.</li>
+<li>Updated existing MS Excel sheets to track interview schedules, candidate records, and coordination documents.</li></ul></div>
+<div class="resume-block"><h3>Education</h3>
+<div class="resume-row"><strong>IIM Bangalore — BBA in Digital Business and Entrepreneurship</strong><span>2026 – 2029</span></div>
+<div class="resume-row"><strong>IGNOU — B.A. Economics (Honours)</strong><span>2026 – 2029</span></div>
+<div class="resume-row"><strong>Deshbandhu Vidyalaya Girls’, Chittaranjan (CBSE) — Class XII (77%)</strong><span>2024 – 2025</span></div>
+<div class="resume-row"><strong>DAV Public School (CBSE) — Class X (81%)</strong><span>2022 – 2023</span></div></div>
+<div class="resume-block"><h3>Skills</h3><p><strong>Core &amp; Tools:</strong> Scheduling, Follow-up, Communication, MS Excel, Canva, Teamwork</p><p><strong>Languages:</strong> English, Hindi, Bengali</p></div>
+<div class="resume-block"><h3>Interests</h3><p>Digital business, entrepreneurship, student opportunities, industry networks and corporate engagement.</p></div>
+</article></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Soumili Banerjee</span><span>Made with care · Resume & Portfolio</span></div></footer>
+<script>
+const toggle=document.getElementById('menuToggle'),nav=document.getElementById('navLinks');
+toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});
+nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');}));
+document.getElementById('printResume').addEventListener('click',()=>window.print());
+document.getElementById('year').textContent=new Date().getFullYear();
+const sections=[...document.querySelectorAll('main section[id]')],navLinks=[...document.querySelectorAll('.nav-link')];
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)navLinks.forEach(link=>link.classList.toggle('active',link.getAttribute('href')==='#'+entry.target.id));}),{rootMargin:'-30% 0px -60% 0px'});sections.forEach(section=>observer.observe(section));}
+</script>
+</body></html>
